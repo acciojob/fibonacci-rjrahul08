@@ -1,3 +1,4 @@
+
 function fibonacci(num) {
   // Create an array to store calculated Fibonacci numbers
   const fibArray = [0, 1];
@@ -8,6 +9,7 @@ function fibonacci(num) {
   }
 
   // Return the nth Fibonacci number
+	const num = parseInt(prompt());
   return fibArray[num];
 }
 
